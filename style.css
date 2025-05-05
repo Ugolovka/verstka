@@ -164,20 +164,26 @@ h4 {
     margin: 120px auto;
 }
 .about-title{
-    width: 260px;
-    margin: 0;
-
+    font-size: 41px;
+    width: 250px;
 }
 .about-block{
     display: flex;
-    justify-content: space-between;
     align-items: end;
+    width: 730px;
 }
-.about-block-item{
-    width: 220px;
+.about-block-item h3 {
+    font-size: 25px;
 }
 .about-block-item:nth-child(2){
-    margin: 0 35px 0 40px;
+    margin: 0 32px;
+}
+.about-block-item h3 {
+    font-size: 25px;
+}
+.about-block-item p {
+    line-height: 24px;
+    letter-spacing: 0.2px;
 }
 .track{
     background-color: #0070A0;
@@ -283,3 +289,198 @@ h4 {
 .start-items p::before {
     content: url(assets/galka.svg);
 }
+.faf{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.barber{
+    width: 650px;
+    height: 55px;
+}
+.omg{
+    width: 650px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+}
+.banan{
+    font-size: 42px;
+    color: #1F1F1F;
+}
+.capa{
+    font-size: 25px;
+    color: #1F1F1F;
+}
+.suda{
+    font-size: 18px;
+    color: #1F1F1F;
+}
+.care-title1{
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.girl{
+    display: grid;
+    grid-template-columns: repeat(4, 355px);
+    grid-template-rows: repeat(1, 500px);
+    column-gap: 32px;
+    grid-template-areas:
+      "content 👾 footer";
+  }
+  
+  .aga1 {
+    grid-area: content;
+    background-color: #FFFFFF;
+  }
+  
+  .aga2 {
+    grid-area: 👾;
+    background-color: #FFFFFF;
+  }
+  
+  .aga3 {
+    grid-area: footer;
+    background-color: #FFFFFF;
+  }
+
+.glorbo{
+    font-size: 42px;
+    color: #1F1F1F;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sing-in1{
+    color: #2C90C9;
+    background-color: #E6F7FF;
+    padding: 6px 20px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+}
+.mao{
+    height: 63px;
+    width: 293px;
+    margin-left: 24px;
+}
+.mao1{
+    height: 19px;
+    width: 307px;
+    margin-left: 24px;
+    margin-top: 13px;
+}
+.mao2{
+    height: 57px;
+    width: 312px;
+    margin-left: 24px;
+}
+.graram{
+    height: 54px;
+    width: 550px;
+}
+.ack{
+    height: 370px;
+    width: 1130px;
+    background-color: #E6F7FF;
+}
+.cr{
+    height: 258px;
+    width: 480px;
+    margin-left: 64px;
+    margin-top: 64px;
+    margin-bottom: 48px;
+}
+.ne{
+    height: 54px;
+    width: 400px;
+    margin-top: 21px;
+}
+.demo1 {
+    color: #FFFFFF;
+    background-color: #0070A0;
+    height: 43px;
+    width: 174px;
+    padding: 6px 20px;
+    border: none;
+}
+.ni{
+    column-gap: 36px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: #1F1F1F;
+}
+.guss{
+    height: 216px;
+    width: 1130px;
+}
+.nooo{
+    color: #0070A0;
+}
+.opt{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(1, );
+    column-gap: 16px;
+    grid-template-areas:
+      "content 👾 good footer ";
+  }
+  
+  .imus {
+    grid-area: content;
+    height: 216px;
+    width: 432px;
+  }
+
+  .bl1 {
+    grid-area: 👾;
+    height: 216px;
+    width: 216px;
+  }
+  
+  .bl2 {
+    grid-area: good;
+    height: 216px;
+    width: 216px;
+  }
+  .bl3{
+    grid-area: footer;
+    height: 216px;
+    width: 216px;
+  }
+
+.lol{
+    height: 72px;
+    width: 180px;
+}
+.asus{
+    font-family: "Inter", sans-serif;
+    color: #626A72;
+} 
+.cunga{
+    margin-top: 64px;
+}
+.arab{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.ram{
+    margin-left: 20px;
+}
+.xex{
+    line-height: 0.19;
+}
+.input{
+    color: #212529;
+    opacity: 0.4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
