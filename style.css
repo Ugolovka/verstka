@@ -338,18 +338,12 @@ h4 {
     color: #0070A0;
 }
 .opt{
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(1, );
-    column-gap: 16px;
-    grid-template-areas:
-      "content 👾 good footer ";
+    margin: 130px auto 64px auto;
+    display: flex;
   }
   
   .imus {
-    grid-area: content;
-    height: 216px;
-    width: 432px;
+    width: 430px;
   }
 
   .bl1 {
@@ -372,10 +366,6 @@ h4 {
 .lol{
     height: 72px;
     width: 180px;
-}
-.asus{
-    font-family: "Inter", sans-serif;
-    color: #626A72;
 } 
 .cunga{
     margin-top: 64px;
@@ -398,3 +388,34 @@ h4 {
     border-left: none;
     border-right: none;
   }
+.footer-logo-links{
+    color: #0070A0;
+}
+.footer-logo p{
+    margin: 0;
+}
+.footer-logo img {
+    margin-bottom: 19px;
+}
+.asus a{
+    display: block;
+    color: #626A72;
+    margin-bottom: 10px;
+}
+h6 {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.bl3 {
+    width: 210px;
+}
+.bl3 input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #c2cdd8;
+    padding: 17px 0 7px 15px;
+}
+.bl3 input::after {
+    content: url(assets/arrow.svg);
+}
