@@ -408,7 +408,7 @@ h6 {
     font-size: 15px;
 }
 .bl3 {
-    width: 210px;
+    width: 220px;
 }
 .bl3 input {
     border: none;
@@ -416,6 +416,10 @@ h6 {
     border-bottom: 1px solid #c2cdd8;
     padding: 17px 0 7px 15px;
 }
-.bl3 input::after {
+.bl3 button{
+    border: none;
+    background: none;
+}
+.bl3 button::after {
     content: url(assets/arrow.svg);
 }
